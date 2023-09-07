@@ -1,0 +1,76 @@
+body{
+  font: normal normal normal 20px/30px Source Han Sans TW;
+  text-align: left;
+  list-style: none;
+}
+a:link{
+  
+  text-decoration: none
+}
+a:visited{
+  
+}
+img{
+  max-height: 100%;  
+  max-width: 100%; 
+  width: auto;
+  height: auto;
+}
+ul li{
+  list-style: none;
+}
+.select-w-308{
+  max-width: 305px;
+}
+
+.fz-48{
+  font-size: 48px;
+}
+.fz-36{
+  font-size: 36px;
+}
+.fz-20{
+  font-size: 20px;
+}
+.fz-16{
+  font-size: 16px;
+}
+
+.py-24{
+  padding: 0px 24px;
+}
+.mt-40{
+  margin-top: 40px;
+}
+
+
+  .car-item{
+  max-width:416px;
+}
+  
+.car-bt{
+  width:100%;
+  height:21%;
+}
+
+
+
+@media (max-width :770px){
+  .cust_contact-fz-24{
+      font-size: 24px;
+  }
+  
+  .cust_contact-fz-16{
+      font-size:16px ;
+      text-align:center;
+      padding-top: 5px;;
+  }
+  .select-w-308{
+      max-width: 295px;
+  }
+}
+@media (max-width :400px){
+  .select-w-308{
+      max-width: 245px;
+  }
+}

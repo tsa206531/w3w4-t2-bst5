@@ -1,0 +1,89 @@
+body{
+  font: normal normal normal 20px/30px Source Han Sans TW;
+  color: #ffffff;
+  text-align: left;
+}
+
+a:hove{
+  color:#ffffff;
+  text-decoration: none
+}
+a:link{
+  color:#ffffff;
+  text-decoration: none
+}
+img {
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+}
+
+ul li{
+   margin-bottom:0px;
+}
+.hr{
+  border: 1px solid #FFFFFF;
+}
+
+.ml-32{
+  margin-left:32px
+}
+
+.mr-40{
+  margin-right: 40px;
+}
+
+.pr-20{
+  padding-right: 20px;
+}
+
+.mtd-48{
+  padding-top:2.5rem;
+}
+.Cust_sty_foot-logo{
+  max-width: 48px;
+  margin-left: 32px;
+}
+.Cust_sty_foot-icon{
+  max-width: 48px;
+}
+
+.gap-48{
+ gap: 32px;
+}
+.foot-fz-36{
+  font-size: 36px;
+}
+
+
+/*框架*/
+@media (max-width :770px){
+  .Cust_arc_banana ul{
+  margin:0px 0px;
+  }
+  .Cust_arc_banana ul a{
+ display:none;
+  }
+  .Cust_arc_footer{
+    display:flex;
+    flex-direction: column;
+  }
+  .gap-48{
+    gap:3px;
+  }
+}
+
+/*樣式*/
+@media (max-width :770px){
+  .Cust_sty_foot-logo{
+    max-width: 24px;
+    margin-left: 8px;
+  }
+  .Cust_sty_foot-icon{
+    max-width: 24px;
+    
+  }
+  .foot-fz-36{
+    font-size: 16px;
+  }
+}
