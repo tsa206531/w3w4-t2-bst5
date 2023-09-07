@@ -1,26 +1,45 @@
 body{
   font: normal normal normal 20px/30px Source Han Sans TW;
+  color: #ffffff;
   text-align: left;
-  list-style: none;
 }
 a:link{
-  
+  color:#ffffff;
   text-decoration: none
 }
 a:visited{
-  
+  color:#ffffff;
 }
+.text-font{
+  font: normal normal normal 20px/30px Source Han Sans TW;
+  color: #ffffff;
+  text-align: left;
+}
+.containerd{
+  padding: 16px 285px;
+}
+
+.bg-red{
+  background:#AA0601;
+ }
+
 img{
   max-height: 100%;  
   max-width: 100%; 
   width: auto;
   height: auto;
+  
 }
-ul li{
-  list-style: none;
+.logo-img{
+  width: 80px;
+  padding-left:16px;
 }
-.select-w-308{
-  max-width: 305px;
+
+
+
+
+.ml-64{
+  margin-left:64px;
 }
 
 .fz-48{
@@ -36,41 +55,51 @@ ul li{
   font-size: 16px;
 }
 
-.py-24{
-  padding: 0px 24px;
-}
-.mt-40{
-  margin-top: 40px;
-}
-
-
-  .car-item{
-  max-width:416px;
-}
+.bar{
+  gap:64px;
+  padding-right:12px;
   
-.car-bt{
-  width:100%;
-  height:21%;
+  
+}
+@media (max-width :1536px){
+  .containerd{
+    padding: 16px 100px;
+  }
 }
 
+@media (max-width :992px){
+  .containerd{
+    padding: 16px 114px;
+  }
+}
 
 
 @media (max-width :770px){
-  .cust_contact-fz-24{
-      font-size: 24px;
+  .containerd{
+    padding: 0px 0px;
   }
-  
-  .cust_contact-fz-16{
-      font-size:16px ;
-      text-align:center;
-      padding-top: 5px;;
+  .Cust_arc-bar{
+    padding-right:0px;
+    padding-left: 0px;
+    color: #16ff35;
   }
-  .select-w-308{
-      max-width: 295px;
+  .bar{
+    gap:0px;
+    padding-right:0px;
+    flex-wrap: wrap;
+    padding:0px;
+    width: 100%;
+    margin-bottom:0px;
   }
-}
-@media (max-width :400px){
-  .select-w-308{
-      max-width: 245px;
+  .bar a{
+    width: 50%;
+    border: 1px solid #FFFFFF;
+    display: inline-block;
+    
+  }
+  .bar a li{
+    text-align: center;
+    color:#FFFFFF;
+   
   }
 }
